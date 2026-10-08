@@ -1,0 +1,124 @@
+.student-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.student-card-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.student-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.student-info {
+  flex: 1;
+}
+
+.student-name {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.student-email {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+}
+
+.student-card-body {
+  padding: 20px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.info-label {
+  font-weight: 600;
+  color: #666;
+}
+
+.info-value {
+  color: #333;
+  font-weight: 500;
+}
+
+.grade-badge {
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.student-card-footer {
+  padding: 15px 20px;
+  background: #f8f9fa;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.btn-view {
+  background: #667eea;
+  color: white;
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+}
+
+.btn-edit {
+  background: #28a745;
+  color: white;
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+}
+
+.btn-delete {
+  background: #dc3545;
+  color: white;
+  flex: 1;
+  padding: 8px;
+}
+
+.btn-view:hover {
+  background: #5568d3;
+}
+
+.btn-edit:hover {
+  background: #218838;
+}
+
+.btn-delete:hover {
+  background: #c82333;
+}
